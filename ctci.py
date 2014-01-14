@@ -289,6 +289,9 @@ class Linked_list(object):
                 print current.last.data
                 current = current.last
 
+#Working with trees:
+class Node = 
+
 #Testing things hurr.
 
 a = Node("a")

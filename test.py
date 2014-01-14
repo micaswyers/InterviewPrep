@@ -39,8 +39,10 @@ def wordcount(list_of_words):
 def make_table(rows):
     html_table = "<table><tbody>"
     for row in rows:
+        html_table += "<tr>"
         for item in row:
-            html_table += "<tr><td>%s</td></tr>" % item
+            html_table += "<td>%s</td>" % item
+        html_table += "</tr>"
     html_table += "</tbody></table>"
     return html_table
 
